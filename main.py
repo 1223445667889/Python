@@ -1,19 +1,31 @@
-# 郑俊杰
-# 返回元组中找出元素索引号
-a = ('Python', 'C', 'Java')
-count = len(a)
-b = input("请输入想要查询的下标元素:")
-i = 0
-for i in range(count):
-    if a[i] == b:
-        print(a[i] + "的下标：", i)
+def haha(c):
+    i = 0
+    count = 0
+    count1 = 0
+    count2 = 0
+    count3 = 0
+    if c(i) >= 65 & c(i) <= 90 & c(i) >= 97 & c(i) <= 122:
+       count += 1
+    if c(i) >= 48 & c(i) <= 89:
+       count1 += 1
+    if c(i) == ' ':
+       count2 += 1
+    else:
+       count3 += 1
+    i += 1
+    print("字母=", count)
+    return count
+b = (1,2,3)
+aff=haha(b)
+print("字母=", aff)
 
-print(a.index("Python"))
 
-# 在成绩列表中计算80分以上的人数
-grade = [63, 84, 54, 82, 64, 95, 76, 45, 85, 69, 91, 84, 81, 68]
-count = 0
-for i in grade:
-    if i > 80:
-        count += 1
-print("count=", count)
+
+# def ll(p, h):
+#    daf = p+h
+#    print(daf)
+#    return daf
+# a = input()
+# b = input()
+# c = ll(a, b)
+# print(c)
