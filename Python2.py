@@ -1,4 +1,3 @@
-# 郑俊杰
 # 返回元组中找出元素索引号
 a = ('Python', 'C', 'Java')
 count = len(a)
