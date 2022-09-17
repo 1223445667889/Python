@@ -50,11 +50,11 @@ class GridFrame(wx.Frame):
         grid.SetCellBackgroundColour(0, 2, wx.LIGHT_GREY)
 
         grid.SetColFormatFloat(5, 6, 2)
-        grid.SetCellValue(1, 0, '郑俊杰')
+        grid.SetCellValue(1, 0, '张三')
         grid.SetCellTextColour(1, 0, wx.RED)
         grid.SetCellValue(1, 1, '物联网二班')
         grid.SetCellTextColour(1, 2, wx.WHITE)
-        grid.SetCellValue(1, 2, '202011909')
+        grid.SetCellValue(1, 2, '20220513')
         grid.SetCellTextColour(1, 2, wx.YELLOW)
 
 
